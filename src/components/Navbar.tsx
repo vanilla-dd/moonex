@@ -10,6 +10,7 @@ const navLinks = [
   { href: "/contact", label: "Contact Us" },
 ];
 
+// images
 const Logo = () => (
   <a href="/" className="flex items-center gap-1 md:gap-2 lg:gap-3">
     <img
@@ -25,6 +26,7 @@ const Logo = () => (
   </a>
 );
 
+// small screen
 const MobileNav = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -77,6 +79,7 @@ const MobileNav = () => {
   );
 };
 
+// big screen
 const Navbar = () => {
   return (
     <nav className="flex items-center justify-between px-2">
