@@ -32,7 +32,10 @@ const MobileNav = () => {
   return (
     <>
       <button
-        onClick={() => setIsOpen(true)}
+        onClick={() => {
+          setIsOpen(true);
+          console.log("hi");
+        }}
         aria-label="Open Menu"
         className="md:hidden"
       >
