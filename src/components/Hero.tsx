@@ -16,10 +16,10 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex gap-4">
-          <Button className="rounded-[999vw] bg-gradient-to-r from-[#E4B40D] to-[#FFE68F] text-xs font-extrabold text-[#111111] outline-1 outline-offset-2 focus-visible:outline-white md:px-6 md:py-5">
+          <Button className="rounded-[999vw] bg-gradient-to-r from-[#E4B40D] to-[#FFE68F] text-xs font-extrabold text-[#111111] outline-1 outline-offset-2 hover:text-black/30 focus-visible:outline-white md:px-6 md:py-5">
             Connect Wallet
           </Button>
-          <Button className="rounded-[999vw] border border-[#E4B40D] bg-transparent text-xs font-extrabold text-[#E4B40D] outline-1 outline-offset-2 focus-visible:outline-white md:px-6 md:py-5">
+          <Button className="rounded-[999vw] border border-[#E4B40D] bg-transparent text-xs font-extrabold text-[#E4B40D] outline-1 outline-offset-2 hover:text-[#E4B40D]/30 hover:text-white focus-visible:outline-white md:px-6 md:py-5">
             Trade Crypto
           </Button>
         </div>

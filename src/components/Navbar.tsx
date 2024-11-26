@@ -71,7 +71,7 @@ const MobileNav = () => {
           </nav>
 
           <div className="px-6">
-            <Button className="w-full rounded-[999vw] bg-gradient-to-r from-[#E4B40D] to-[#FFE68F] py-6 text-lg font-extrabold text-[#111111] outline-1 outline-offset-2 focus-visible:outline-white">
+            <Button className="rounded-[999vw] bg-gradient-to-r from-[#E4B40D] to-[#FFE68F] text-xs font-extrabold text-[#111111] outline-1 outline-offset-2 hover:text-black/30 focus-visible:outline-white md:px-6 md:py-5">
               Connect Wallet
             </Button>
           </div>
@@ -88,7 +88,7 @@ const Navbar = () => {
       <Logo />
       <div className="hidden items-center font-extrabold md:flex md:gap-8 md:text-sm lg:gap-14 lg:text-base xl:gap-24 xl:text-lg">
         {navLinks.map((link) => (
-          <a key={link.href} href={link.href}>
+          <a key={link.href} href={link.href} className="hover:text-[#FFE68F]">
             {link.label}
           </a>
         ))}

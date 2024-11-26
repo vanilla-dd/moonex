@@ -6,12 +6,20 @@ const Footer = () => {
           <img src="/assets/logo/moonex-logo.png" alt="" className="w-32" />
         </a>
         <div className="flex flex-col gap-2 font-extrabold md:flex-row lg:gap-16">
-          <a href="#about">About Us</a>
-          <a href="/roadmap">Roadmap</a>
-          <a href="#faq">FAQs</a>
-          <a href="/contact">Contact Us</a>
+          <a href="#about" className="hover:text-[#F9D423]">
+            About Us
+          </a>
+          <a href="/roadmap" className="hover:text-[#F9D423]">
+            Roadmap
+          </a>
+          <a href="#faq" className="hover:text-[#F9D423]">
+            FAQs
+          </a>
+          <a href="/contact" className="hover:text-[#F9D423]">
+            Contact Us
+          </a>
         </div>
-        <div className="space-y-4 text-center">
+        <div className="space-y-2 text-center md:space-y-4 lg:space-y-6">
           <p className="text-xl font-extrabold">
             Contact
             <span className="text-[#F9D423]"> Us</span>
