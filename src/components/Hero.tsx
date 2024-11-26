@@ -1,8 +1,10 @@
 import { Button } from "./ui/button";
+import YellowBloom from "./YellowBloom";
 
 const Hero = () => {
   return (
     <div className="flex min-h-[calc(100dvh-100px)] items-center justify-center lg:justify-start">
+      <YellowBloom className="top-0 h-32" />
       <div className="flex flex-col items-center justify-center space-y-6 text-balance text-center">
         <div className="space-y-2 font-neuemachina">
           <h1 className="text-4xl font-extrabold sm:text-5xl md:text-6xl lg:text-7xl">

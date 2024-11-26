@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import YellowBloom from "./YellowBloom";
 
 const Faq = () => {
   const faqItems = [
@@ -27,7 +28,10 @@ const Faq = () => {
   ];
 
   return (
-    <div id="faq" className="flex w-full items-center justify-center">
+    <div id="faq" className="relative flex w-full items-center justify-center">
+      <YellowBloom className="-right-40 top-0 h-32 opacity-60" />
+      <YellowBloom className="bottom-0 left-0 h-32 opacity-60" />
+
       <div className="space-y-6 divide-y rounded-lg bg-[#F7F9FF05] px-4 py-6 sm:px-8 lg:w-2/3 lg:px-16 lg:py-12">
         <p className="text-center font-neuemachina text-4xl font-extrabold text-[#F9D423]">
           FAQs

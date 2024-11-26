@@ -1,9 +1,13 @@
+import YellowBloom from "./YellowBloom";
+
 const About = () => {
   return (
     <div
       id="about"
-      className="space-y-4 sm:space-y-6 md:space-y-8 lg:space-y-10"
+      className="relative space-y-4 sm:space-y-6 md:space-y-8 lg:space-y-10"
     >
+      <YellowBloom className="bottom-0 left-1/4 h-32 opacity-70" />
+
       <p className="font-neuemachina text-4xl font-extrabold">
         Why
         <span className="text-[#F9D423]"> MoonEx </span>?

@@ -1,3 +1,5 @@
+import YellowBloom from "./YellowBloom";
+
 const BackgroundSystem = () => {
   return (
     <div className="pointer-events-none absolute -z-10 min-h-dvh w-full overflow-hidden">
@@ -10,6 +12,7 @@ const BackgroundSystem = () => {
           alt=""
           className="aspect-square w-full rounded-full opacity-5"
         />
+        <YellowBloom className="right-0 h-32" />
       </div>
       <img
         src="/assets/stars/star.svg"
