@@ -41,7 +41,7 @@ const FeatureCard = ({
   title: string;
   description: string;
 }) => (
-  <div className="space-y-6 rounded-lg bg-[#ffffff]/5 p-6">
+  <div className="space-y-6 rounded-lg bg-[#f7f9ff05] p-6">
     <div className="flex aspect-square w-12 items-center justify-center rounded-full bg-[#212F3A]">
       <Svg />
     </div>

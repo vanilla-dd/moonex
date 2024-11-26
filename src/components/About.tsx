@@ -6,7 +6,7 @@ const About = () => {
         <span className="text-[#F9D423]"> MoonEx </span>?
       </p>
 
-      <div className="rounded-lg bg-white/5 p-6 px-12 text-white shadow-lg shadow-white/5">
+      <div className="rounded-lg bg-[#F7F9FF05] p-6 px-12 text-white shadow-lg shadow-white/5">
         <div className="grid grid-cols-3 items-center border-b border-gray-700 pb-4 text-center">
           <p className="font-neuemachina text-2xl font-semibold text-yellow-400">
             Comparison
