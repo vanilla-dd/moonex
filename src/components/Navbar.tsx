@@ -85,7 +85,7 @@ const MobileNav = () => {
 // big screen
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-2">
+    <nav className="flex items-center justify-between">
       <Logo />
       <div className="hidden items-center font-extrabold md:flex md:gap-8 md:text-sm lg:gap-14 lg:text-base xl:gap-24 xl:text-lg">
         {navLinks.map((link) => (

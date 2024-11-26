@@ -1,4 +1,6 @@
+import About from "./components/About";
 import BackgroundSystem from "./components/BackgroundSystem";
+import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -6,12 +8,14 @@ function App() {
   return (
     <>
       <BackgroundSystem />
-      <main className="container mx-auto min-h-dvh pt-4 font-raleway text-white">
+      <main className="container mx-auto min-h-dvh px-2 pt-4 font-raleway text-white">
         <Navbar />
-        <div className="flex min-h-[calc(100dvh-100px)] items-center justify-center px-2 lg:justify-start">
-          <Hero />
-        </div>
-        {/* <div className="aspect-square w-80 rounded-[40%] bg-gradient-to-r from-[#edd955] to-[#ded1a0] blur-[150px]"></div> */}
+
+        <Hero />
+        <div className="my-10 md:m-14 lg:m-20"></div>
+        <About />
+        <div className="my-10 md:m-14 lg:m-20"></div>
+        <Features />
       </main>
     </>
   );
