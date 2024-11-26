@@ -54,7 +54,7 @@ const FeatureCard = ({
 
 const Features = () => {
   return (
-    <div className="space-y-10">
+    <div className="space-y-4 sm:space-y-6 md:space-y-8 lg:space-y-10">
       <p className="text-center font-neuemachina text-4xl font-extrabold">
         Our <span className="text-[#F9D423]">Features</span>
       </p>

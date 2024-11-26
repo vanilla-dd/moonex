@@ -50,7 +50,6 @@ const MobileNav = () => {
               <X />
             </button>
           </div>
-          {/* Menu Links */}
           <nav className="mt-4 flex flex-col gap-4 px-6 pb-12 pt-6 text-lg font-semibold">
             {navLinks.map((link, index) => (
               <div key={link.href} className="space-y-2">
