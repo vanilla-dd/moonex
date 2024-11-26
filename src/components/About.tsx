@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="space-y-10">
+    <div id="about" className="space-y-10">
       <p className="font-neuemachina text-4xl font-extrabold">
         Why
         <span className="text-[#F9D423]"> MoonEx </span>?

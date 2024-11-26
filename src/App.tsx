@@ -2,6 +2,7 @@ import About from "./components/About";
 import BackgroundSystem from "./components/BackgroundSystem";
 import Faq from "./components/Faq";
 import Features from "./components/Features";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -21,6 +22,7 @@ function App() {
         <Faq />
         <div className="my-10 md:m-14 lg:m-20"></div>
       </main>
+      <Footer />
     </>
   );
 }
