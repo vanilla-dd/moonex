@@ -28,7 +28,10 @@ const Faq = () => {
   ];
 
   return (
-    <div id="faq" className="relative flex w-full items-center justify-center">
+    <div
+      id="faq"
+      className="relative flex w-full items-center justify-center overflow-hidden"
+    >
       <YellowBloom className="-right-40 top-0 h-32 opacity-60" />
       <YellowBloom className="bottom-0 left-0 h-32 opacity-60" />
 
